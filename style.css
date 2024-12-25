@@ -1,0 +1,159 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+			
+        }
+        section {
+            padding: 40px 20px;
+        }
+		#logo{
+			border-radius:200px;
+		}
+        section#home {
+           
+            color: black;
+            text-align: center;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+			margin-top:-60px;
+        }
+        section#home h2 {
+            font-size: 2rem;
+            margin: 0;
+        }
+        section#home p {
+            font-size: 1.2rem;
+        }
+        section#services, section#about, section#contact {
+            background-color: #f4f4f4;
+            margin: 10px 0;
+        }
+        section h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .service-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            background-color: white;
+			
+        }
+        .services-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+			
+        }
+		#ani{  
+		  animation-name: example;
+		  animation-duration: 4s;
+		  color:black;
+		}
+
+		@keyframes example {
+		  0%   {color: red;}
+		  25%  {color: yellow;}
+		  50%  {color: blue;}
+		  100% {color: green;}
+		}
+		#disc{
+			position:relative;
+			bottom:70px;
+			font-size: 1.2rem;
+		}
+		#review{
+		border-radius:5px;
+		
+		}
+		#rev{
+			position:relative;
+			top:-100px;
+			
+		}
+		#links:hover{
+		background-color:lightGreen;
+		
+		}
+		#static, #dynamic, #e-com{
+		position:relative;
+		top:-85px;
+		 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+		font-size:14px;
+		}
+		#ser{
+		position:relative;
+		top:-85px;
+		font-family:sans-serif;
+		
+		}
+        footer {
+            color: gray;
+            text-align: center;
+            padding: 10px 0;
+        }
+		hr{
+			color:Green;
+		}
+		 .slideshow-container {
+      width: 80%;
+      max-width: 600px;
+      position: relative;
+      overflow: hidden;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+	  margin-top:-80px;
+    }
+
+    .slide {
+      display: none;
+      text-align: center;
+    }
+
+    .active {
+      display: block;
+    }
+
+    .slide p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .slide h3 {
+      font-size: 20px;
+      margin: 10px 0;
+      color: #0078d7;
+    }
+
+    .navigation {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .dot {
+      height: 12px;
+      width: 12px;
+      margin: 0 5px;
+      background-color: #ddd;
+      border-radius: 50%;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .dot.active {
+      background-color: #0078d7;
+    }
